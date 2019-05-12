@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="countdown_header_background">#65C4DB</color>
+    <color name="countdown_background">#F0F0F0</color>
+    <color name="countdown_roaming_text_color">#666666</color>
+    <color name="date_text_color">#ED1C24</color>
+    <color name="theme_color">#48D1CC</color>
+    <color name="menu_item_text_color">#666666</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="countdown_icon_text_size">16sp</dimen>
+    <dimen name="countdown_days_marin">10dp</dimen>
+    <dimen name="countdown_header_welcome_text_margin">50dp</dimen>
+    <dimen name="countdown_welcome_image_size">36dp</dimen>
+    <dimen name="countdown_whole_box_height">262dp</dimen>
+    <dimen name="countdown_box_height">140dp</dimen>
+    <dimen name="countdown_box_margin_top">122dp</dimen>
+    <dimen name="countdown_sticky_whole_box_height">190dp</dimen>
+    <dimen name="countdown_sticky_blue_background_height">142dp</dimen>
+    <dimen name="countdown_sticky_box_height">96dp</dimen>
+    <dimen name="app_margin_20dp">20dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+</resources>

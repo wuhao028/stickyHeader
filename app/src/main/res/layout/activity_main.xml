@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/countdown_background"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/rewardpage_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/sticky_part"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/countdown_sticky_whole_box_height"
+        android:background="@color/color_transparent">
+
+        <RelativeLayout
+            android:background="@color/theme_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/countdown_sticky_blue_background_height">
+
+            <LinearLayout
+                android:id="@+id/header_text_first_line"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/welcome_image"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/countdown_wave_hand" />
+
+                <TextView
+                    android:id="@+id/header_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Move your ideas forward"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/header_text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_below="@+id/header_text_first_line"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:text="--" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/countdown_box"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/countdown_sticky_box_height"
+            android:layout_marginTop="94dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_countdown_three_line">
+
+            <ImageView
+                android:id="@+id/countdown_box_left_image"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:scaleType="centerInside"
+                android:background="@drawable/gift_box" />
+
+            <TextView
+                android:id="@+id/countdown_box_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="14sp"
+                android:text="Adele new album 30 \n coming soon"
+                android:gravity="center"
+                android:layout_centerHorizontal="true" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/box_right_image"
+                    android:layout_width="65dp"
+                    android:layout_height="82dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/ribbon" />
+
+                <TextView
+                    android:id="@+id/countdown_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/countdown_days_marin"
+                    android:text="2"
+                    android:textColor="@color/date_text_color"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="46dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Days"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
